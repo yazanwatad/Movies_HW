@@ -1,0 +1,49 @@
+# === .NET / ASP.NET ===
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.PublishSettings
+
+# === Build and publish folders ===
+publish/
+release/
+*.zip
+
+# === User-specific files ===
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# === Visual Studio ===
+.vs/
+.vscode/
+
+# === OS/System files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# === JavaScript/Node.js ===
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# === Frontend build files ===
+dist/
+build/
+
+# === Environment & secrets ===
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
